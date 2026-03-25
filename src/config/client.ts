@@ -30,7 +30,7 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
+  googleRating: "5",
   reviewCount: "4",
 
   // Services
@@ -79,10 +79,10 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "mark ball", rating: 5, text: "Lee always does a fantastic job of all our hedges, and tidies up too! He's so busy but can always fit you in. Our neighbours use him too! Always a great job!", date: "a year ago" },
-    { name: "Trevor Twinley", rating: 5, text: "Lee and Dan came to cut and trim our hedges. They did a fantastic job we are very pleased with the results. We would recommend Lee to anyone looking for a reliable gardener. They worked very hard and did everything we asked of them. Totally satisfied.", date: "6 years ago" },
-    { name: "Fugitive", rating: 5, text: "We had lee to do our hedges today and clear our drive of weeds I could not fault any of his work he is very professional and had the right certificates which we had checked first I highly recommend lee and his prices are very competitive.", date: "6 years ago" },
-    { name: "Denise", rating: 5, text: "Lee came round and did the garden and the fencing the price was very competitive and the service was excellent. Happy to recommend him.", date: "6 years ago" },
+    { name: "Trevor Twinley", rating: 5, text: "Lee and  Dan came to cut and trim our hedges . They did a fantastic job we are very pleased with the results. We would recommend Lee to anyone looking for a reliable gardener. They worked very hard and did everything we asked of them. Totally satisfi", date: "6 years ago" },
+    { name: "Fugitive", rating: 5, text: "We had lee to do our hedges today and clear our drive of weeds I could not fault any of hes work he is very professional and had the right certificates which we had checked first I highly recommend lee and hes prices are very competitive ", date: "6 years ago" },
+    { name: "Denise", rating: 5, text: "Lee came round and did the garden and the fencing the price was very competitive and the service was excellent. Happy to recommend him.  ", date: "6 years ago" },
+    { name: "Margaret Dronfield", rating: 5, text: "I'm still waiting for them to ring me. Maybe they are away  Have now had Lee and would recommend him always. Very tidy ", date: "Edited 3 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO

@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "0",
+  reviewCount: "4",
 
   // Services
   services: [
@@ -79,9 +79,10 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "mark ball", rating: 5, text: "Lee always does a fantastic job of all our hedges, and tidies up too! He's so busy but can always fit you in. Our neighbours use him too! Always a great job!", date: "a year ago" },
+    { name: "Trevor Twinley", rating: 5, text: "Lee and Dan came to cut and trim our hedges. They did a fantastic job we are very pleased with the results. We would recommend Lee to anyone looking for a reliable gardener. They worked very hard and did everything we asked of them. Totally satisfied.", date: "6 years ago" },
+    { name: "Fugitive", rating: 5, text: "We had lee to do our hedges today and clear our drive of weeds I could not fault any of his work he is very professional and had the right certificates which we had checked first I highly recommend lee and his prices are very competitive.", date: "6 years ago" },
+    { name: "Denise", rating: 5, text: "Lee came round and did the garden and the fencing the price was very competitive and the service was excellent. Happy to recommend him.", date: "6 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
